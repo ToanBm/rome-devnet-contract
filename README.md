@@ -1,26 +1,17 @@
-# Deploy an ERC-20 Token on ROME Devnet
+## Deploy an ERC-20 Token on ROME Devnet
 - Open [Github Codespace](https://github.com/codespaces)
 - Faucet [Here](https://romeevm.devnet.romeprotocol.xyz/request_airdrop)
 - Paste the below command to Deploy an ERC-20 Token
-## 1. Initialize Your NPM Project
+### 1. Clone the repository
 ```Bash
-npm init -y
+git clone https://github.com/ToanBm/rome-devnet-contract.git
+cd rome-devnet-contract
 ```
-## 2. Install Hardhat & Ethers.js Plugin
+### 2. Run the setup script
 ```Bash
-npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers @openzeppelin/contracts
+chmod +x contract.sh && ./contract.sh
 ```
-## 3. Create a HardHat Project
-```Bash
-npx hardhat init
-```
-![My Image](https://github.com/ToanBm/hemi-deploy-contract/blob/main/hemi.jpg)
-## 4. Add Folder
-```Bash
-mkdir contracts && mkdir scripts
-```
-## 5. Write Your Contract
-```Bash
-nano contracts/MyToken.sol
-```
-```Bash
+### 3. Check your Token
+- [Explorer](https://romeevm.devnet.romeprotocol.xyz:1000/)
+
+## Done!
