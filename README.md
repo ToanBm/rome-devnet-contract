@@ -4,8 +4,7 @@
 - Paste the below command to Deploy an ERC-20 Token
 ### 1. Clone the repository
 ```Bash
-git clone https://github.com/ToanBm/rome-devnet-contract.git
-cd rome-devnet-contract
+git clone https://github.com/ToanBm/rome-devnet-contract.git && cd rome-devnet-contract
 ```
 ### 2. Run the setup script
 ```Bash
